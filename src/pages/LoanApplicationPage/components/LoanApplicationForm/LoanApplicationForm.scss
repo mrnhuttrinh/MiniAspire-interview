@@ -1,0 +1,26 @@
+.loan-application-form {
+  margin: 0 auto 30px;
+
+  width: 600px;
+  height: auto;
+  background-color: rgba($color: #000000, $alpha: 0.05);
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  .submit-button {
+    padding: 5px 15px;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+
+  .title {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

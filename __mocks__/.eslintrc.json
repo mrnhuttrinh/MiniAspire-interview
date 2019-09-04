@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype"],
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "__DEVTOOLS__": true
+  },
+  "rules": {
+    "jsx-a11y/label-has-for": 0,
+    "camelcase": 0,
+    "react/destructuring-assignment": [false],
+    "jsx-a11y/label-has-associated-control": 0,
+    "import/prefer-default-export": 0,
+    "arrow-parens": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "array-callback-return": 0,
+    "arrow-body-style": 0,
+    "no-plusplus": 0,
+    "no-extra-boolean-cast": 0,
+    "react/no-array-index-key": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "global-require": 0
+  }
+}

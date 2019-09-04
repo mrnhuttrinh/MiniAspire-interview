@@ -1,0 +1,1 @@
+export const selectedLoanData = state => state.loanApplication.loanApplication;

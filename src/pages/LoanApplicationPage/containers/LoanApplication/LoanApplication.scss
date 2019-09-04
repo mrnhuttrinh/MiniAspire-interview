@@ -1,0 +1,17 @@
+.loan-application {
+  $r: &;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .loan-application__heading {
+    flex: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
