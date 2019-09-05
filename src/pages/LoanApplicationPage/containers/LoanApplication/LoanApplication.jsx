@@ -45,6 +45,8 @@ function LoanApplication(props) {
   );
 }
 
+export { LoanApplication };
+
 const mapStateToProps = (state) => {
   return {
     loanApplication: selectedLoanData(state),

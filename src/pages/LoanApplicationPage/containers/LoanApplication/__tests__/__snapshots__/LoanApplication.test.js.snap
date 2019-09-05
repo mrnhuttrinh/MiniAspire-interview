@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanApplication should render LoanApplication with child LoanApplicationForm Component 1`] = `<Connect(LoanApplication) />`;

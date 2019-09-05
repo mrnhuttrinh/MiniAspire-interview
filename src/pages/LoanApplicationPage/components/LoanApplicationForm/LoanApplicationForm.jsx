@@ -137,6 +137,8 @@ const mapStateToProps = (state) => {
   };
 };
 
+export { LoanApplicationForm };
+
 export default compose(
   reduxForm({
     form: LOAN_APPLICATION_FORM,

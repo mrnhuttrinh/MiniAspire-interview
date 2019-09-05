@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanApplicationForm should render LoanApplicationForm 1`] = `
+<form
+  className="loan-application-form"
+>
+  <div
+    className="title"
+  >
+    Contact Information
+  </div>
+  <Field
+    component={[Function]}
+    label="Title"
+    name="title"
+    options={
+      Array [
+        Object {
+          "key": "Mr",
+          "text": "Mr",
+        },
+        Object {
+          "key": "Mrs",
+          "text": "Mrs",
+        },
+        Object {
+          "key": "Ms",
+          "text": "Ms",
+        },
+      ]
+    }
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="First Name"
+    name="firstName"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Last Name"
+    name="lastName"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Date Of Birth"
+    name="dateOfBirth"
+    type="date"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Material"
+    name="material"
+    options={
+      Array [
+        Object {
+          "key": "Male",
+          "text": "Male",
+        },
+        Object {
+          "key": "Female",
+          "text": "Female",
+        },
+        Object {
+          "key": "Other",
+          "text": "Other",
+        },
+      ]
+    }
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Phone"
+    name="phone"
+    validate={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Email"
+    name="email"
+    validate={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Address"
+    name="address"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <br />
+  <hr />
+  <div
+    className="title"
+  >
+    Loan Information
+  </div>
+  <Field
+    component={[Function]}
+    label="Amount"
+    name="amount"
+    type="number"
+    validate={
+      Array [
+        [Function],
+        [Function],
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Term"
+    name="term"
+    options={
+      Array [
+        Object {
+          "key": "Weekly",
+          "text": "Weekly",
+        },
+        Object {
+          "key": "Monthly",
+          "text": "Monthly",
+        },
+        Object {
+          "key": "Quarterly",
+          "text": "Quarterly",
+        },
+        Object {
+          "key": "Annually",
+          "text": "Annually",
+        },
+      ]
+    }
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <div>
+    <button
+      className="submit-button"
+      type="submit"
+    >
+      Send Application Now
+    </button>
+  </div>
+</form>
+`;
